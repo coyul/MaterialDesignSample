@@ -6,7 +6,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="sampleViewStyle">@style/Widget.SampleView.InTheme</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorPrimary</item>
+        <item name="android:editTextColor">@color/editTextColor</item>
+        <item name="borderlessButtonStyle">@style/Widget.Sample.Button.Borderless.Colored</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Sample.Button.Borderless.Colored</item>
+        <!-- should add negative and neutral -->
+
 
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>

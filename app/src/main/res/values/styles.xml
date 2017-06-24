@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Widget.SampleView" parent="">
-        <item name="android:minWidth">100dp</item>
-        <item name="android:minHeight">200dp</item>
-        <item name="innerColor">@color/colorAccent</item>
+    <style name="Widget.Sample.Button.Borderless.Colored" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.Sample.Widget.Button.Borderless.Colored</item>
     </style>
 
-    <style name="Widget.SampleView.Extended">
-        <item name="customBorderWidth">8dp</item>
-        <item name="innerColor">@color/inner</item>
-        <item name="borderColor">@color/border</item>
+    <style name="TextAppearance.Sample.Widget.Button.Borderless.Colored" parent="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:textColor">@color/borderless_button_yellow</item>
     </style>
 
-    <style name="Widget.SampleView.InTheme">
-        <item name="innerColor">@color/colorPrimaryDark</item>
+    <style name="Widget.Sample.Button.Colored.Primary" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_colored_primary</item>
     </style>
-
-
-
 
     <style name="TextAppearance.Sample" parent="TextAppearance.AppCompat"/>
 
@@ -30,6 +23,7 @@
     <style name="TextAppearance.Sample.Body.Primary">
         <item name="android:textColor">?attr/colorPrimary</item>
     </style>
+
     <style name="TextAppearance.Sample.Body.Accent">
         <item name="android:textColor">?attr/colorAccent</item>
     </style>
@@ -38,9 +32,11 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.Sample.Headline.Primary">
         <item name="android:textColor">?attr/colorPrimary</item>
     </style>
+
     <style name="TextAppearance.Sample.Headline.Accent">
         <item name="android:textColor">?attr/colorAccent</item>
     </style>
@@ -49,9 +45,11 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+
     <style name="TextAppearance.Sample.Small.Primary">
         <item name="android:textColor">?attr/colorPrimary</item>
     </style>
+
     <style name="TextAppearance.Sample.Small.Accent">
         <item name="android:textColor">?attr/colorAccent</item>
     </style>
